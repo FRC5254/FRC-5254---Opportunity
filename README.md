@@ -17,3 +17,5 @@ Robot Code is written in Java but dashboard is done in LabVIEW.
   - Probably located at C:\Program Files (x86)\FRC Dashboard
 2. Launch the driver station and the dashboard should launch automatically if it's in the right location  
  - If not, make sure the driver station Dashboard Type is set to "Default" under the gear icon in the Driver Station
+
+####Working on Smart Dashboard Branch
