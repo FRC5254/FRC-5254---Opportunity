@@ -6,3 +6,7 @@
 /.idea/
 *~
 /sysProps.xml
+dist/FRCUserProgram.jar
+dist/FRCUserProgram.jar
+*.jar
+sysProps.xml
