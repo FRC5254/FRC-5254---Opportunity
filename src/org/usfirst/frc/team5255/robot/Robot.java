@@ -50,16 +50,13 @@ public class Robot extends IterativeRobot {
 	 * This function is called periodically during autonomous
 	 */
 	public void autonomousPeriodic() {
-		//autoMode = (int) SmartDashboard.getNumber("autoSelection"); 
-		
-		autoMode = 1;
-		
+		autoMode = (int) SmartDashboard.getNumber("autoSelection");
+		// Values defined in smart dashboard
 		// 0 : Do Nothing
 		// 1 : Bump
 		// 2 : Low Bar
 		switch (autoMode) {
 		case 1: // Bump
-			//System.out.println(driveTimer.get());
 			if (driveTimer.get() < bumpTime) {
 				Opportunity.drivetrain.drive(bumpSpeed, 0);
 			} else if (driveTimer.get() > bumpTime) {
